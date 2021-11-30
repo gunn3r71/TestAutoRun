@@ -9,4 +9,8 @@
     <ProjectReference Include="..\AutoRun\AutoRun.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Tasks\" />
+  </ItemGroup>
+
 </Project>

@@ -1,12 +1,16 @@
 ﻿using System;
+using AutoRun;
 
 namespace TestAutoRun
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-        
+            var results = AutoRunner.Run();
+
+            foreach (var result in results)
+                Console.WriteLine(result);
         }
     }
 }
